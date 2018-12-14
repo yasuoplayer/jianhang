@@ -1,0 +1,726 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "microsoft yahei";
+	text-decoration: none;
+	border: none;
+}
+.content
+{
+	width: 960px;
+	margin: 0 auto;
+}
+.gotop
+{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background: url(../img/go_top_bg.png) no-repeat 0 -244px;
+}
+.gotop:hover
+{
+	background: url(../img/go_top_bg.png) no-repeat -50px -244px;
+	cursor: pointer;
+}
+.header
+{
+	width: 100%;
+	height: 50px;
+	background-color: #0066b3;
+}
+.header .header_box
+{
+	height: 100%;
+}
+
+.header .header_box .header_box_left
+{
+	width: 316px;
+	height: 100%;
+	float: left;
+}
+.header .header_box .header_box_left li
+{
+	display: block;
+	height: 100%;
+	width: 64px;
+	float: left;
+	margin-right: 12px;
+}
+.header .header_box .header_box_left li[id='se']
+{
+	background: url(../img/grjt.png) no-repeat bottom center;
+}
+.header .header_box .header_box_left li a
+{
+	font-size: 16px;
+	color: #27fff7;
+	line-height: 50px;
+}
+
+.header .header_box .img
+{
+	float: left;
+	height: 100%;
+	position: relative;
+}
+.header .header_box .img img
+{
+	position: relative;
+	top: 14px;
+	float: left;
+	z-index: 3;
+	display: block;
+}
+.header .header_box .img div
+{
+	background: url(../img/hv_top.png) no-repeat 0px 12px;
+	width: 144px;
+	height: 100%;
+	float: left;
+	position: absolute;
+	left: 0px;
+	opacity: 0;
+	filter: alpha(poacity:0);
+	display: none;
+}
+
+.header .header_box .img div a
+{
+	font-size: 12px;
+	color: #27fff7;
+	margin-left: 14px;
+	line-height: 50px;
+}
+
+.header .header_box .header_box_right
+{
+	width: 420px;
+	height: 100%;
+	float: right;
+}
+.header .header_box .header_box_right ul
+{
+	height: 100%;
+	width: 100%;
+}
+.header .header_box .header_box_right ul li
+{
+	display: block;
+	height: 100%;
+	float: right;
+	margin-left: 5px;
+	line-height: 50px;
+	color: #27fff7;
+}
+.header .header_box .header_box_right ul li a
+{
+	font-size: 14px;
+	color: #27fff7;
+	line-height: 50px;	
+}
+.header .header_box .header_box_right ul li a img
+{
+	position: relative;
+	top: 3px;
+	margin-right: 4px;
+}
+.header_nav
+{
+	width: 100%;
+	height: 81px;
+	box-shadow: 0px 2px 2px #8d8d8d;
+}
+.header_nav .box
+{
+	height: 100%;
+	/*line-height: 81px;*/
+}
+.header_nav .box .logo
+{
+	display: block;
+	height: 100%;
+	width: 200px;
+	float: left;
+}
+.header_nav .box .logo img
+{
+	margin-top: 20px;
+}
+
+.mq
+{
+	/*margin-top: 2px;*/
+	width: 100%;
+	height: 418px;
+}
+.mq .mq1
+{
+	height: 418px;
+	width: 100%;
+	position: absolute;
+}
+
+.mq #mq1
+{
+	background: url(../img/13129_1_1535424223.jpg) no-repeat 50% 0;
+}
+
+.mq #mq2
+{
+	background: url(../img/13057_1_1534924350.jpg) no-repeat 50% 0;
+}
+
+.mq #mq3
+{
+	background: url(../img/13176_1_1535529637.jpg) no-repeat 50% 0;
+}
+
+.mq .box
+{
+	height: 380px;
+}
+
+.mq  .box .login_div
+{
+	width: 312px;
+	height: 321px;
+	background: white;
+	position: relative;
+	z-index: 5;
+	float: right;
+	top: 30px;
+}
+
+.mq  .box .login_div .way
+{
+	width: 263px;
+	height: 37px;
+	border-bottom: 1px solid #ccc;
+	margin: 12px 25px;
+}
+
+.mq  .box .login_div .way span
+{
+	width: 50%;
+	height: 100%;
+	display: block;
+	float: left;
+	color: #999;
+	text-align: center;
+	line-height: 37px;
+}
+.mq  .box .login_div .way span[class='active']
+{
+	color: #0066b3;
+	border-bottom: 2px solid #0066b3;
+}
+
+.mq  .box .login_div .userbox
+{
+	width: 263px;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin: 14px 25px;
+	color: #333;
+	
+}
+.mq  .box .login_div .userbox i
+{
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+	margin-left: 10px;
+	color: #0066B3;
+}
+
+.mq  .box .login_div .userbox .user
+{
+	width: 200px;
+	height: 30px;
+	text-indent: 1em;
+	color: #333;
+	outline: none;	
+}
+
+.mq .box .pswbox
+{
+	width: 263px;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin: 14px 25px;	
+}
+
+.mq .box .pswbox i
+{
+	font-size: 20px;
+	position: relative;
+	top: 6px;
+	margin-left: 10px;	
+	float: left;
+	color: #0066B3;
+}
+
+.mq  .box .login_div .pswbox .psw
+{
+	width: 160px;
+	height: 30px;
+	text-indent: 1em;
+	color: #333;
+	float: left;
+	outline: none;
+}
+
+.mq  .box .login_div .pswbox .keyboard
+{
+	width: 73px;
+	height: 30px;
+	color: white;
+	float: left;
+	background-color: #0066B3;
+	text-align: center;
+	line-height: 30px;
+	font-size: 13px;
+}
+.mq  .box .login_div .pswbox .keyboard:hover
+{
+	cursor: pointer;
+}
+
+.mq  .box .login_div .submit
+{
+	width: 263px;
+	height: 40px;
+	line-height: 40px;
+	margin: 14px 25px;	
+	background-color: #0066B3;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+}
+.mq  .box .login_div .submit:hover
+{
+	cursor: pointer;
+}
+
+.mq  .box .login_div .functions
+{
+	width: 263px;
+	height: 47px;	
+	margin: 14px 25px;		
+}
+.mq  .box .login_div .functions .goindex
+{
+	height: 23px;
+	width: 100%;
+}
+.mq  .box .login_div .functions .goindex a
+{
+	float: right;
+	font-size: 12px;
+	color: #0066B3;
+}
+.mq  .box .login_div .functions .goindex span
+{
+	float: left;
+	font-size: 12px;
+	color: red;	
+}
+.mq  .box .login_div .functions .goindex span:hover
+{
+	color: red !important;
+}
+.mq  .box .login_div .functions .goindex span:hover
+{
+	cursor: pointer;
+	color:#FF9900 ;
+}
+
+.mq  .box .login_div .functions .other
+{
+	width: 100%;
+	height: 24px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+.mq  .box .login_div .functions .other span
+{
+	float: right;
+	color: #ccc;
+	font-size: 12px;
+}
+
+.mq  .box .login_div .functions .other span a
+{
+	font-size: 12px;
+	color: #333;
+}
+.mq  .box .login_div .functions .other span a:hover
+{
+	color: #FF9900;
+}
+
+.mq  .box .login_div .functions .other input
+{
+	position: relative;
+	top: 3px;
+}
+
+.mq  .box .login_div .bank
+{
+	width: 100%;
+	height: 50px;
+	background-color: #f5f5f5;
+	text-align: center;
+	font-size: 12px;
+	color: #3f3f3f;
+	line-height: 50px;
+}
+.mq  .box .login_div .bank a
+{
+	color: #0066b3;
+}
+.mq  .box .login_div .bank a:hover
+{
+	text-decoration: underline;
+}
+.loginnav
+{
+	margin-top: 10px;
+	height: 450px;
+	width: 100%;
+}
+.loginnav .box
+{
+	height: 450px;
+}
+
+.loginnav .box .title
+{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+.loginnav .box .title span
+{
+	display: block;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+	line-height: 36px;
+	float: left;
+}
+.loginnav .box .title .marquee
+{
+	width: 760px;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	overflow: hidden;
+	position: relative;
+}
+.loginnav .box .title .marquee a
+{
+	position: absolute;
+	line-height: 36px;
+	font-size: 14px;
+	color: #333333;
+}
+.loginnav .box .title .marquee a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.loginnav .box .main
+{
+	width: 100%;
+	height: 430px;
+}
+.loginnav .box .main .left
+{
+	height: 100%;
+	width: 550px;
+	float: left;
+}
+
+.loginnav .box .main .left .title1
+{
+	display: block;
+	width: 100%;
+	height: 30px;
+	border-left: 3px solid #2D8DDE;
+	color: #474747;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-indent: 4px;
+	line-height: 30px;
+}
+
+.loginnav .box .main .left .title1 a
+{
+	color: #0078B6;
+	font-size: 14px;
+	margin-left: 15px;
+}
+.loginnav .box .main .left .title1 a:hover
+{
+	text-decoration: underline;
+}
+
+.loginnav .box .main .left p
+{
+	font-size: 14px;
+	color: #9F9F9F;
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+.loginnav .box .main .left .setpsw
+{
+	display: block;
+	width: 110px;
+	height: 30px;
+	margin-left: 4px;
+	background-color: #2D8DDE;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.loginnav .box .main .left ul
+{
+	width: 534px;
+	position: relative;
+	left: 16px;
+}
+.loginnav .box .main .left ul li
+{
+	list-style-type: disc;
+	font-size: 14px;
+	color: #9F9F9F;	
+	margin: 10px 0;
+}
+
+.loginnav .box .main .right
+{
+	width: 410px;
+	height: 100%;
+	float: right;
+}
+
+.loginnav .box .main .right .title1
+{
+	display: block;
+	width: 100%;
+	height: 30px;
+	border-left: 3px solid #2D8DDE;
+	color: #474747;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-indent: 4px;
+	line-height: 30px;
+}
+.loginnav .box .main .right ul
+{
+	width: 410px;
+	height: 280px;
+	margin-top: 20px;
+}
+
+.loginnav .box .main .right ul li
+{
+	width: 136px;
+	height: 115px;
+	float: left;
+}
+.loginnav .box .main .right ul li:hover
+{
+	cursor: pointer;
+}
+.loginnav .box .main .right ul li .ico
+{
+	margin: 0 36px;
+}
+
+.loginnav .box .main .right ul li p
+{
+	color: #767676;
+	font-size: 14px;
+	text-align: center;
+}
+
+.loginnav .box .main .right ul li p span
+{
+	position: relative;
+	left: 4px;
+	color: white;
+	background-color: #FF9900;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot
+{
+	margin-top: 25px;
+	width: 100%;
+	height: 210px;
+}
+
+.foot .top
+{
+	width: 100%;
+	height: 50px;
+	background-color: #025a9d;
+}
+
+.foot .top .box
+{
+	height: 50px;
+}
+.foot .top .box img
+{
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.foot .top .box ul
+{
+	float: left;
+	height: 100%;
+}
+.foot .top .box ul li
+{
+	display: block;
+	height: 100%;
+	float: left;
+	margin:0 10px;
+}
+.foot .top .box ul li a
+{
+	font-size: 14px;
+	line-height: 50px;
+	color: #1dd9e2;
+}
+.foot .top .box ul li a:hover
+{
+	color: white;
+}
+.foot .top .box span
+{
+	display: block;
+	float: right;
+	height: 100%;
+	font-size: 14px;
+	line-height: 50px;
+	color: #1dd9e2;	
+}
+.foot .top .box span a
+{
+	font-size: 14px;
+	line-height: 50px;
+	color: #1dd9e2;	
+}
+.foot .top .box span a:hover
+{
+	color: white;
+}
+
+.foot .main
+{
+	width: 100%;
+	height: 160px;
+	background-color: #0066b3;
+	overflow: hidden;
+}
+
+.foot .main .box
+{
+	height: 160px;
+	padding-top: 36px;
+}
+.foot .main .box .left
+{
+	float: left;
+	height: 124px;
+}
+.foot .main .box .center
+{
+	height: 124px;
+	float: left;
+}
+.foot .main .box .center ul
+{
+	height: 124px;
+	width: 500px;
+}
+.foot .main .box .center ul li
+{
+	height: 30px;
+	width: 100%;
+	font-size: 14px;
+	color: #fff5ec;
+	line-height: 30px;
+}
+
+.foot .main .box .right
+{
+	height: 124px;
+	width: 400px;
+	float: right;
+}
+.foot .main .box .right ul
+{
+	float: right;
+	width: 100%;
+	height: 100%;
+}
+.foot .main .box .right ul li
+{
+	float: right;
+	display: block;
+	height: 100px;
+	width: 76px;
+	margin-left: 20px;
+	background-color: white;
+}
+.foot .main .box .right ul li img
+{
+	margin: 10px;
+}
+.foot .main .box .right ul li span
+{
+	display: block;
+	height: 20px;
+	color: #0066b3;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
